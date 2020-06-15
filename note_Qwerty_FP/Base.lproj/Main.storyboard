@@ -33,7 +33,16 @@
                             <outlet property="delegate" destination="dHn-Pc-O8Q" id="kTf-ev-amw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="FAVORITE PLACES" id="EoG-8F-JpW"/>
+                    <navigationItem key="navigationItem" title="FAVORITE PLACES" id="EoG-8F-JpW">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="9vo-PZ-GKO">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SGG-er-NTd">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aNW-K5-Tos" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -72,4 +81,5 @@
             <point key="canvasLocation" x="139" y="98"/>
         </scene>
     </scenes>
+    <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
